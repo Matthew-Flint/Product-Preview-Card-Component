@@ -10,3 +10,11 @@
 --Cream: hsl(30, 38%, 92%);
 --White: hsl(0, 0%, 100%);
 }
+body {
+    height: 100vh;
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
