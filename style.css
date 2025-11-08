@@ -18,3 +18,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.gabrielle, .green-price {
+    font-family: 'Fraunces', sans-serif;
+}
+.perfume, .description, .old-price {
+    font-family: 'Montserrat', sans-serif;
+}
