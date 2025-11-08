@@ -24,3 +24,19 @@ body {
 .perfume, .description, .old-price {
     font-family: 'Montserrat', sans-serif;
 }
+.card {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main-image {
+    width: 20rem;
+}
+.card-content {
+    background-color: var(--White);
+    max-width: 15rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
