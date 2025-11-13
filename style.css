@@ -21,8 +21,30 @@ body {
 .gabrielle, .green-price {
     font-family: 'Fraunces', sans-serif;
 }
-.perfume, .description, .old-price {
+.perfume, .description, .old-price, .add-to-cart {
     font-family: 'Montserrat', sans-serif;
+}
+.perfume {
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--Grey);
+}
+.gabrielle {
+    font-size: 2rem;
+    line-height: 100%;
+}
+.description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+.green-price {
+    font-size: 2rem;
+    color: var(--Green-500);
+}
+.old-price {
+    text-decoration: line-through;
 }
 .card {
     display: flex;
@@ -35,8 +57,21 @@ body {
 .card-content {
     background-color: var(--White);
     max-width: 15rem;
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+.prices {
+    display: flex;
+    align-items: center;
     gap: 10px;
+}
+.add-to-cart {
+    min-width: 3rem;
+    background-color: var(--Green-500);
+    padding: 15px;
+    color: var(--White);
+    border-radius: 10px;
+    border: none;
 }
