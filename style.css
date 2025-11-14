@@ -90,3 +90,21 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+@media screen and (max-width: 620px) {
+    .image-desktop {
+        display: none;
+    }
+    .image-mobile {
+        display: inline-block;
+        height: 50%;
+    }
+    body {
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        flex-direction: column;
+        width: 400px;
+        overflow:auto;
+    }
+}
