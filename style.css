@@ -20,19 +20,19 @@ body {
     background-color: var(--Cream);
 }
 .image-desktop {
-    width: 300px;
-    height: auto;
-}
+    width: 50%;
+    height: auto; 
+} 
 .image-mobile {
     display: none;
 }
 .card {
+    width: 600px;
     display: flex;
     border-radius: 10px;
     overflow: hidden;
 }
 .card-content {
-    width: 300px;
     background-color: var(--White);
     padding: 1.5em;
     display: flex;
@@ -48,7 +48,7 @@ body {
 .description {
     line-height: 180%;
 }
-.perfume, .description {
+.perfume, .description, .add-to-cart {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
@@ -67,6 +67,19 @@ body {
 }
 .price.old {
     text-decoration: line-through;
+}
+.shopping-button {
+    background-color: var(--Green-500);
+    padding: 1.25em;
+    border-radius: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.add-to-cart {
+    text-decoration: none;
+    color: white;
 }
 .attribution { 
     font-size: 11px; 
