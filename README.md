@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-This was more challenging than my previous projects as I had to get the image to change to a completely different source when the screen reached a certain size. I ended up styling the mobile image to disappear by default and then turn it back on with the desktop one turned off usiong a media query, like this: 
+This was more challenging than my previous projects, as I had to get the image to change to a completely different source when the screen reached a certain size. I ended up styling the mobile image to disappear by default and then turn it back on with the desktop one turned off using a media query, like this: 
 
 ```css
 .image-desktop {
