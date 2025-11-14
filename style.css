@@ -56,8 +56,17 @@ body {
     font-family: 'Fraunces', sans-serif;
     font-size: 40px;
 }
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
 .price.green {
     color:var(--Green-500);
+    font-weight: 700;
+}
+.price.old {
+    text-decoration: line-through;
 }
 .attribution { 
     font-size: 11px; 
