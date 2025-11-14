@@ -1,6 +1,13 @@
 .image-mobile {
     display: none;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
