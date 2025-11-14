@@ -47,7 +47,7 @@ body {
 .description {
     line-height: 180%;
 }
-.perfume, .description, .add-to-cart {
+.perfume, .description, .add-to-cart, .attribution {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
@@ -76,20 +76,24 @@ body {
     justify-content: center;
     gap: 1em;
 }
-.shopping-button:hover {
+.shopping-button:hover, .shopping-button:focus {
     background-color: var(--Green-700);
     cursor: pointer;
 }
 .add-to-cart {
     text-decoration: none;
-    color: white;
+    color: var(--White);
 }
 .attribution { 
-    font-size: 11px; 
     margin-top: 2em;
+    text-align: center;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--Green-500);
+    text-decoration: none;
+}
+.attribution a:hover, .attribution a:focus {
+    color: red;
 }
 @media screen and (max-width: 620px) {
     .image-desktop {
