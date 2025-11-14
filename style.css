@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: var(--Cream);
 }
 .image-desktop {
     width: 300px;
@@ -27,6 +28,7 @@ body {
 }
 .card-content {
     width: 300px;
+    background-color: var(--White);
 }
 .attribution { 
     font-size: 11px; 
