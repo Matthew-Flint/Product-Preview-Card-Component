@@ -78,6 +78,7 @@ body {
 }
 .shopping-button:hover {
     background-color: var(--Green-700);
+    cursor: pointer;
 }
 .add-to-cart {
     text-decoration: none;
@@ -96,15 +97,19 @@ body {
     }
     .image-mobile {
         display: inline-block;
-        height: 50%;
-    }
-    body {
-        align-items: center;
-        justify-content: center;
+        height: 300px;
     }
     .card {
         flex-direction: column;
-        width: 400px;
-        overflow:auto;
+        width: 350px;
+        overflow: auto;
+    }
+    .gabrielle {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .card {
+        width: 300px;
     }
 }
