@@ -26,14 +26,22 @@ body {
 .image-mobile {
     display: none;
 }
+.card {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
 .card-content {
     width: 300px;
     background-color: var(--White);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 .attribution { 
     font-size: 11px; 
     margin-top: 2em;
-    padding: 2em;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
