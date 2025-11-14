@@ -38,7 +38,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    justify-content: center;
 }
 .perfume {
     font-weight: 500;
@@ -76,6 +75,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 1em;
+}
+.shopping-button:hover {
+    background-color: var(--Green-700);
 }
 .add-to-cart {
     text-decoration: none;
