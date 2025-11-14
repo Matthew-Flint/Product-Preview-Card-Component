@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
+} 
 
 body {
     display: flex;
@@ -10,9 +9,17 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: ;
+}
+.image-desktop {
+    width: 300px;
+    height: auto;
 }
 .image-mobile {
     display: none;
+}
+.card-content {
+    width: 300px;
 }
 .attribution { 
     font-size: 11px; 
