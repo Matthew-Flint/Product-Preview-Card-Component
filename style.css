@@ -38,6 +38,26 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    justify-content: center;
+}
+.perfume {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+.description {
+    line-height: 180%;
+}
+.perfume, .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.gabrielle, .price.green {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 40px;
+}
+.price.green {
+    color:var(--Green-500);
 }
 .attribution { 
     font-size: 11px; 
